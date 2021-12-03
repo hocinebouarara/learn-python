@@ -10,4 +10,4 @@ def myfunc1():
     global z
     z = "bouarara"
 myfunc1()
-print(z)  #   >>> bouarara
+print("my last name is ",z)  #   >>> bouarara
