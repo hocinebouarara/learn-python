@@ -64,5 +64,31 @@ lastname = "bouarara"
 username = firstname + lastname
 print("The user name is : ", username)   # The user name is : hocinebouarara
 
-name=firstname+" "+lastname
-print("The name is : ",name)     # The name is : hocine bouarara
+name = firstname+" "+lastname
+print("The name is : ", name)     # The name is : hocine bouarara
+
+
+# Format Strings
+
+age = 26
+txt = "My name is hocine, I am "+str(age)
+print(txt)   # >>> My name is hocine, I am 26
+
+txt = "My name is hocine, I am {}"
+print(txt.format(age))  # >>> My name is hocine, I am 26
+
+quantity=3
+itemno=534
+price=45.98
+myOrder="I want {0} pieces of item {2} for {1} dollars."
+print(myOrder.format(quantity,itemno,price)) # >>> I want 3 pieces of item 534 for 45.98
+
+# same result with indexing
+myOrder="I want {0} pieces of item {1} for {2} dollars."
+print(myOrder.format(quantity,itemno,price)) # >>> I want 3 pieces of item 534 for 45.98
+
+
+
+
+
+
