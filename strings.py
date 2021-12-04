@@ -42,4 +42,27 @@ print(b[2:])   # >>> ell, World!
 print(b[-6:-1])
 
 
+# Modify Strings
+x = "Hocine bouarara"
+print(x.upper())   # >>> HOCINE BOUARARA
+x = "Hocine Bouarara"
+print(x.lower())   # >>> hocine bouarara
+x = "Hocine   Bouarara  "
+print(x.strip())   # >>> hocine bouarara
+
+print(x.replace('a','A')) # >>> hocine bouArArA
+x = "Hocine, Bouarara"
+
+print(x.split(","))  # >>> ['Hocine','Bouarara']
+
+
+
+
+  
+
+
+
+
+
+
 
