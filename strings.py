@@ -33,4 +33,13 @@ print("expensive" not in txt)   # >>> True
 if "expensive" not in txt:
     print("No, 'expensive' is NOT present.") # >>> No 'exepensive' is NOT present.
 
+# Slicing Strings
+
+b = "Hello, World!"
+print(b[2:5])  # >>> llo
+print(b[:5])   # >>> Hello
+print(b[2:])   # >>> ell, World!
+print(b[-6:-1])
+
+
 
